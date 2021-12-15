@@ -52,7 +52,7 @@ namespace API_Case.Model
 
                     //Het afstand is in meters
                     int afstand = int.Parse(json["routes"][0]["summary"]["lengthInMeters"].ToString());
-                    return "Het afstand is " + (afstand / 1000) + "km";
+                    return "De afstand is " + (afstand / 1000) + "km";
                 }
             }
         }
